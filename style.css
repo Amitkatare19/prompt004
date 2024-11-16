@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.page1{
+    background-color: white;
+}
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo > img{
+    height: 60px;
+    border-radius: 30px;
+}
+
+nav > h4 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(117, 114, 114);
+}
+
+nav h3 {
+    font-size: 35px;
+    color:rgb(70, 65, 59);
+    font-family: sans-serif;
+}
+
+.content{
+    width: 80vw;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* background: red; */
+    margin-left: 10vw;
+}
+
+.content > h1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #514058;
+}
+.main{
+    display: flex;
+    align-items: start;
+    gap: 200px;
+}
+
+.range{
+    width: 35vw;
+    margin-top: 40px;
+    /* background-color: blue; */
+    display: flex;
+    padding: 40px;
+    border: 1px solid rgb(247, 228, 228) ;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.amt{
+    display: flex;
+    flex-direction: column;
+}
+
+.paisa{
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
+}
+
+.money{
+    background-color: #e9caee;
+    height: 25px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding-right: 10px;
+    width: 150px;
+
+}
+input{
+    font-size: 15px;
+    border: none;
+    background: none;
+    width: 110px;
+    /* color: #000; */
+    /* margin-bottom: 50px; */
+    
+}
+::placeholder{
+    color: #000;
+}
+
+i{
+    font-size: 15px;
+}
+h1{
+    font-family: sans-serif;
+    color: #9598cc;
+    font-size: 20px;
+}
+
+.aage > input{
+   width: 541px;
+   height: 3px;
+   color: #4d9786;
+   margin-bottom: 50px;
+}
+
+.img > img{
+    height: 700px;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.things{
+    margin-top: 10px;
+}
+
+.all h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-bottom: 20px;
+    color: rgb(96, 81, 81);
+}

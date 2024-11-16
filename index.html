@@ -1,0 +1,93 @@
+<!-- #004Prompt: Calculation 
+
+Design a calculation element or interface. Is it a standard calculator, a scientific one, or specialty calculator for 
+something such as a home mortgage or auto loan? Is it to forecast a calculation such as for a credit score? Is it for a phone, a tablet, a web app? -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="page1">
+      <nav>
+        <div class="logo">
+          <img src="logo.png" alt="" />
+          <h3>LenDen</h3>
+        </div>
+        <h4>Home</h4>
+        <h4>About</h4>
+        <h4>Explore</h4>
+        <h4>Calculator</h4>
+      </nav>
+      <hr />
+      <div class="content">
+        <h1>Home Loan EMI Calculator</h1>
+        <div class="main">
+          <div class="range">
+            <div class="amt">
+              <div class="paisa">
+                <h1>Loan Amount</h1>
+                <div class="money">
+                  <i class="fa-solid fa-indian-rupee-sign"></i>
+                  <input type="number" placeholder="1000000" />
+                </div>
+              </div>
+              <div class="aage">
+                <input type="range" />
+              </div>
+            </div>
+            <div class="rate">
+              <div class="paisa">
+                <h1>Rate of Interest (p.a)</h1>
+                <div class="money">
+                  <input type="number" placeholder="11 " />
+                  <i class="fa-solid fa-percent"></i>
+                </div>
+              </div>
+             <div class="aage">
+                <input type="range" />
+              </div>
+            </div>
+            <div class="loan">
+                <div class="paisa">
+                    <h1>Loan tenure</h1>
+                    <div class="money">
+                      <input type="num" placeholder="15 Year" />
+                      <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                  </div>
+                 <div class="aage">
+                    <input type="range" />
+                  </div>
+            </div>
+            <div class="all">
+                <div class="things">
+                    <h3>Monthly</h3>
+                    <h3>Principle Amount.</h3>
+                    <h3>Total Interest</h3>
+                    <h3>Total Amount</h3>
+                </div>
+                <div class="number">
+                    <h3>₹11,366</h3>
+                    <h3>₹10,00,000</h3>
+                    <h3>₹10,45,874</h3>
+                    <h3>₹20,45,874</h3>
+                </div>
+            </div>
+          </div>
+          <div class="img">
+            <img src="img.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
